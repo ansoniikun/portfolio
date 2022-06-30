@@ -10,7 +10,7 @@
   max-width: 15em;
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .img-skill-size {
     max-width: 12em;
   }
@@ -83,9 +83,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #6c757d;
+  color: #d6dbdf;
   text-align: left;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -404,7 +404,7 @@ h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #343a40;
+  color: #ccd5dd;
 }
 
 h1,
@@ -2880,8 +2880,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #0bceaf;
-  border-color: #0bceaf;
+  color: #FFD700;
+  border-color: #FFD700;
 }
 
 .btn-outline-primary:hover {
@@ -2905,8 +2905,8 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0bceaf;
-  border-color: #0bceaf;
+  background-color: #FFD700;
+  border-color: #FFD700;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
@@ -6766,7 +6766,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #0bceaf !important;
+  background-color: #FFD700 !important;
 }
 
 a.bg-primary:hover,
@@ -9942,11 +9942,11 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .text-primary {
-  color: #0bceaf !important;
+  color: #FFD700 !important;
 }
 
 a.text-primary:hover,
@@ -10232,7 +10232,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #0bceaf;
+  color: #FFD700;
 }
 
 @media (max-width: 991.98px) {
